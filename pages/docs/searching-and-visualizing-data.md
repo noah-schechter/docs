@@ -5,9 +5,9 @@ description: Atlos offers many options to slice and dice your data.
 
 # {% $markdoc.frontmatter.title %}
 
-Atlos provides many options to slice and dice your data—you can view your catalog on a map, in cards, or in a table. It’s also easy to sort, search, and filter incidents.
+Atlos provides many options to slice and dice your data—you can view your catalog on a map, in cards, or in a table. It’s also easy to sort, search, and filter incidents. Navigate to the Incidents page to view your catalog. 
 
-## Sorting Data
+## Sorting data
 There are five ways to sort incidents on Atlos. The platform remembers your choice of sorting the next time you navigate to the Incidents page. 
 - _Newest Added_ shows the incident most recently added first. 
 - _Oldest Added_ shows the incident least recently added first.
@@ -16,13 +16,13 @@ There are five ways to sort incidents on Atlos. The platform remembers your choi
 - _Description (A-Z)_ puts the incidents into an alphabetical order, showing first the incident whose description starts with an A.
 - _Description (Z-A)_ puts the incidents into reverse alphabetical order, showing first the incident whose description starts with an Z.
 
-## Data Views
+## Data views
 There are three ways to view incidents on Atlos. 
 
-### Map View
+### Map view
 The map view shows search results on a global map. Note that the map view may be incomplete because it only shows geolocated incidents. 
 
-### Card View
+### Card view
 Card view displays incident cards with the following data: 
 - Source material thumbnail
 - Status
@@ -31,13 +31,13 @@ Card view displays incident cards with the following data:
 - If the incident has geolocation data, Atlos will display a geolocated label on the card
 - The profile images of investigators who have contributed to the incident
   
-### Table View
+### Table view
 Table view is Atlos’ spreadsheet-like visualization tool. Table view displays attribute data of many incidents in a single table, enabling investigators to view many incidents’ data at a glance.  In table view, clicking on an attribute will open up a pop-up editing window so investigators can update data directly from the Incidents page. To open an incident, click on its code. Because every project has a different schema, when viewing incidents in table view, you'll need to first choose a project.
 
-#### Bulk Editing
+#### Bulk editing
 In table view, click on the profile image next to any incident to open up the bulk selection tool. Then select as many incidents as you’d like to edit their statuses or tags in bulk. 
 
-## Filtering Data
+## Filtering data
 There are five filters available on Atlos. You can use multiple filters at the same time. 
 - **Status—** Filter by all incidents of a given Status (Unclaimed, Ready for Review, etc.)
 - **Geolocation—** Filter to find all incidents of a project that are in a certain radius of a location.
