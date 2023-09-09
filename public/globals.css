@@ -57,7 +57,7 @@
   --blue: #0073e6;
   --magenta: #dc34dc;
 
-  --theme: var(--yellow);
+  --theme: var(--blue);
   --stripe: #0a2540;
 
   --light: var(--white);
@@ -122,13 +122,13 @@ body {
   background: var(--light);
   font-family: var(--sans);
 }
-
+/*
 body ::selection,
 body.dark ::selection{
   color: var(--black) !important;
   background: var(--theme) !important;
 }
-
+*/
 body.modal-is-active {
   /* Override the body scrolling behavior when there's a modal open in order to avoid dual scroll bars */
   overflow: hidden;
