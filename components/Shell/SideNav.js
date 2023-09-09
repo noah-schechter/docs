@@ -7,8 +7,7 @@ const items = [
     title: 'Get started',
     links: [
       { href: '/docs/what-is-atlos', children: 'What is Atlos?'},
-      { href: '/docs/faq', children: 'FAQ' },
-      { href: '/sandbox', children: 'Try it out' }
+      { href: '/docs/faq', children: 'FAQ' }
     ]
   },
   {
@@ -31,7 +30,7 @@ const items = [
     ]
   },
   {
-    title: 'BLANK',
+    title: 'Profile',
     links: [
       { href: '/docs/notifications', children: 'Notifications' },
       { href: '/docs/account', children: 'Account' }
@@ -42,7 +41,7 @@ const items = [
     { href: '/docs/security-and-risk-model', children: 'Security and risk model'},
     {href: '/docs/vicarious-trauma', children: 'Vicarious trauma'},
   ]},
-{ title: 'Technical details',
+{ title: 'Technical',
 links: [
   { href: '/docs/self-hosting', children: 'Self-hosting'},
   { href: '/docs/contribute', children: 'Contribute'}
