@@ -6,49 +6,48 @@ const items = [
   {
     title: 'Get started',
     links: [
-      { href: '/docs/overview', children: 'What is Markdoc?' },
-      { href: '/docs/getting-started', children: 'Installation' },
+      { href: '/docs/what-is-atlos', children: 'What is Atlos?'},
       { href: '/docs/faq', children: 'FAQ' },
       { href: '/sandbox', children: 'Try it out' }
     ]
   },
   {
-    title: 'Core concepts',
+    title: 'Incidents',
     links: [
-      { href: '/docs/syntax', children: 'Syntax and schema' },
-      { href: '/docs/nodes', children: 'Nodes' },
-      { href: '/docs/tags', children: 'Tags' },
+      { href: '/docs/incidents', children: 'About incidents' },
       { href: '/docs/attributes', children: 'Attributes' },
-      { href: '/docs/variables', children: 'Variables' },
-      { href: '/docs/functions', children: 'Functions' },
-      {
-        href: '/docs/render',
-        children: 'Rendering'
-      },
-      {
-        href: '/docs/config',
-        children: 'Config objects'
-      },
-      { href: '/docs/validation', children: 'Validation' }
+      { href: '/docs/metadata', children: 'Metadata' },
+      { href: '/docs/source-material', children: 'Source material' },
+      { href: '/docs/comments-and-the-feed', children: 'Comments and the feed' }
     ]
   },
   {
-    title: 'Integration guides',
+    title: 'Investigations',
     links: [
-      { href: '/docs/examples', children: 'Common examples' },
-      { href: '/docs/examples/html', children: 'Using with HTML' },
-      { href: '/docs/nextjs', children: 'Using with Next.js' },
-      { href: '/docs/examples/react', children: 'Using with React' }
+      { href: '/docs/projects', children: 'Projects'},
+      { href: '/docs/collaboration', children: 'Collaboration'},
+      { href: '/docs/import-and-export-data', children: 'Import and export data' },
+      { href: '/docs/searching-and-visualizing-data', children: 'Search and visualize data' }
     ]
   },
   {
-    title: 'Advanced concepts',
+    title: 'BLANK',
     links: [
-      { href: '/docs/frontmatter', children: 'Frontmatter' },
-      { href: '/docs/partials', children: 'Partials' }
+      { href: '/docs/notifications', children: 'Notifications' },
+      { href: '/docs/account', children: 'Account' }
     ]
-  }
-];
+  },
+{ title: 'Safety and security',
+  links: [
+    { href: '/docs/security-and-risk-model', children: 'Security and risk model'},
+    {href: '/docs/vicarious-trauma', children: 'Vicarious trauma'},
+  ]},
+{ title: 'Technical details',
+links: [
+  { href: '/docs/self-hosting', children: 'Self-hosting'},
+  { href: '/docs/contribute', children: 'Contribute'}
+]}
+]
 
 export function SideNav() {
   const router = useRouter();
