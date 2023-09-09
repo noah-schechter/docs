@@ -1,195 +1,47 @@
 ---
 title: Attributes
-description: Attributes are used to pass data to tags in Markdoc.
+description: Attributes are structured data that describe incidents.
 ---
 
 # {% $markdoc.frontmatter.title %}
 
+## Attributes describe incidents
+Attributes are structured data that describe incidents. Attributes make data easily searchable and provide structure for large-scale tagging or data coding projects. Each attribute corresponds to a single column in a spreadsheet-style investigation. 
 
-Attributes let you pass data to Markdoc tags, similar to [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) or [React props](https://reactjs.org/docs/components-and-props.html).
+## How to edit attributes
+This section describes how to edit an incident’s data. If you’re looking for a description of data model customization, refer to [Customize Attributes](#how-to-customize-attributes). 
 
-You can pass values of type: `number`, `string`, `boolean`, JSON `array`, or JSON `object`, either directly or using [variables](/docs/variables). With a tag, you can use HTML-like syntax.
+To add an attribute that doesn’t yet have a value, click on the attribute’s name in the Add Attributes section of the Attributes pane.
 
-{% markdoc-example %}
+To update an attribute that already has a value, click `Update` on the right side of the Attributes pane. 
 
-```
-{% city
-   index=0
-   name="San Francisco"
-   deleted=false
-   coordinates=[1, 4, 9]
-   meta={id: "id_123"}
-   color=$color /%}
-```
+After opening the Update window, you’ll see at least two fields. The first field(s) provide space to edit the attribute. The last field is an optional space to explain your change. This explanation will appear in the Feed, which serves as a log of changes to the incident’s data. We recommend including an explanation for all non-trivial updates.
 
-{% /markdoc-example %}
+Once you’ve finished editing the attribute’s value and explaining your change, click `Post update`. You’ll see the update reflected in the Attributes pane and in the Feed. 
 
-To pass attributes to a node, you can't use the HTML-like syntax. Instead, use _annotation_ syntax. Put the attributes after the node, in their own set of `{%` and `%}`.
+## Core attributes are permanent
+Attributes can be customized for each project, but Atlos provides some basic attributes to help investigators get started. Some of these attributes—like Description, Date, Geolocation, and More Info—are core attributes and can’t be removed from a project’s data model. Core attributes are necessary for properly displaying incident data; permitting investigators to remove them would make Atlos less usable.
 
-{% markdoc-example %}
+## How to customize attributes 
+Sometimes the default attributes aren’t sufficient. A project might need attributes or values that better describe its incidents or add more detailed context. This section refers to customizing an entire project’s data model. If you’re looking to edit an incident’s attributes’ values, refer to [How To Edit Attributes](#how-to-edit-attributes). 
 
-```
-{% table %}
+To customize a project’s data model, navigate to the Projects page and select the relevant project. Click on the Manage page and scroll down to the Attributes pane to begin customizing a project’s attributes. Note that only project owners and managers can customize attributes. 
 
-- Function {% width="25%" %}
-- Returns  {% colspan=2 %}
-- Example  {% align=$side %}
+To add a new attribute to a project’s data model, click `Add Attribute` on the right side of the Attributes pane. 
+ 
+To edit a project’s existing attribute, click the pencil icon on the right side of the attribute’s row. All features of the attribute are customizable, including Name, Type, Description, and Options. Note that removing or editing a project’s attributes once an investigation has begun risks undermining the integrity of your project’s data.
 
-{% /table %}
-```
+Once you’ve opened the Edit Attribute window, you’ll see four fields:
+- **Attribute Name—** The attribute's name. Incident Type, for example.
+- **Attribute Type—** This refers to the type of data the attribute will contain:
+  - **Text—** Text attributes are free-response text boxes. These can be used for one-word values or for longer content.
+  - **Single select—** Use single select attributes for selecting a single option from a list of possible values. Single select should be used when options are mutually exclusive; when choosing one option rules out the other options, use single select attributes. For example, if you’re classifying satellite imagery into high-resolution and low-resolution categories, use a single select attribute type because each option is mutually exclusive. 
+  - **Multiple select—** Use multiple select attributes for cases when an investigator might need to select multiple options at the same time. For example, the default “Impact” attribute is a multi-select attribute; an airstrike can impact many different kinds of buildings simultaneously.
+  - **Date—** The Date attribute uses a special date attribute type (displayed as DD Month YYYY, or 08 August 2023). To avoid confusion, there can be only one attribute with the Date type per incident.
+  - **Geolocation—** The Geolocation attribute uses a special geolocation attribute type. To avoid confusion, there can be only one attribute wit the Geolocation type attribute per incident. The Geolocation attribute includes two components. The first is a coordinate pair displayed as latitude, longitude. The Geolocation attribute includes a second component, Precision, which indicates the precision of the supplied location. There are three possible Precision values:
+    - _Exact_ indicates maximum precision, or ± 10m.
+    - _Vicinity_ indicates that the indicated location refers to the same complex, block, or field as the true location, or ± 100m. 
+    - _Locality_ indicates that the indicated location refers to the same neighborhood or village as the true location, or ± 1km. 
 
-{% /markdoc-example %}
-
-(Annotation syntax also works with tags. But it's required with nodes.)
-
-Strings within attributes must be double-quoted. If you want to include a literal double-quote in a string you can escape it with using \\".
-
-{% markdoc-example %}
-
-``` {% process=false %}
-{% data delimiter="\"" /%}
-```
-
-{% /markdoc-example %}
-
-
-## Attribute shorthand 
-
-
-In either syntax, you can use `.my-class-name` and `#my-id` as shorthand for `class=my-class-name` and `id=my-id`.
-
-{% markdoc-example %}
-
-``` {% process=false %}
-# Examples {% #examples %}
-
-{% table .striped #exampletable %}
-- One 
-- Two
-- Three
-{% /table %}
-```
-
-{% /markdoc-example %}
-
-
-## Defining attributes
-
-Markdoc lets you configure custom attribute types for each [tag](/docs/tags). Assigning a type to an attribute limits which values an attribute can pass to a tag and, as a result, which values create errors during [validation](/docs/validation).
-
-The following example defines an attribute for a `Callout` tag. By default, the attribute is set to `note` and validated against the `matches` array.
-
-```js
-{
-  render: 'Callout',
-  children: ['paragraph', 'tag', 'list'],
-  attributes: {
-    type: {
-      type: String,
-      default: 'note',
-      required: true,
-      matches: ['caution', 'check', 'note', 'warning'],
-      errorLevel: 'critical',
-    },
-  }
-};
-```
-
-{% table %}
-
-- Option
-- Type
-- Description
-
----
-
-- `type`
-- - `String` or `"String"`
-  - `Boolean` or `"Boolean"`
-  - `Number` or `"Number"`
-  - `Object` or `"Object"`
-  - `Array` or `"Array"`
-  - A [Custom attribute](#create-a-custom-attribute) you create
-- Specifies the data type of the attribute.
-
----
-
-- `default`
-- The value must be the same data type defined for the attribute and, if applicable, appear in `matches`.
-- Specifies the default behavior of the attribute if no value is provided.
-
----
-
-- `required`
-- `boolean`
-- Specifies whether a value must be passed to the attribute. If no value is provided, the system throws an error.
-
----
-
-- `matches`
-- A regular expression, array of strings, or function that takes an option and returns strings.
-- Specifies a string pattern to match against an attribute value.
-
----
-
-- `errorLevel`
-- - `debug`
-  - `info`
-  - `warning`
-  - `error`
-  - `critical`
-- Specifies how Markdoc reports a validation error. Errors are ordered in ascending severity.
-
-{% /table %}
-
-## Create a custom attribute
-
-With Markdoc you can create custom attributes, and use them within tags. In this example, you're creating a `DateTime` attribute that makes sure a valid string is provided.
-
-```js
-// ./attribute-types/DateTime.js
-
-export class DateTime {
-  validate(value, config) {
-    if (typeof value !== 'string' || isNaN(Date.parse(value)))
-      return [
-        {
-          id: 'invalid-datetime-type',
-          level: 'critical',
-          message: 'Must be a string with a valid date format'
-        }
-      ];
-
-    return [];
-  }
-
-  transform(value, config) {
-    return Date.parse(value);
-  }
-}
-```
-
-Then, pass the custom attribute to your tag definition in your [`config` object](/docs/config).
-
-```js
-import { DateTime } from './attribute-types/DateTime';
-
-/** @type {import('@markdoc/markdoc').Config} */
-const config = {
-  tags: {
-    'tag-name': {
-      render: 'YourComponent',
-      attributes: {
-        created: {
-          type: DateTime,
-          required: true
-        }
-      }
-    }
-  }
-};
-```
-
-## Next steps
-
-- [Pass variables to attributes](/docs/variables)
+- **Attribute Description—** An optional description of the attribute. We highly recommend including a detailed description of how you expect investigators to use the attribute to avoid confusion. 
+- **Attribute Options—** Attribute options are the potential values for each attribute. Specify each option by writing a value pressing Enter, and repeating until you’ve listed every option. 
