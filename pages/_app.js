@@ -140,15 +140,10 @@ export default function MyApp(props) {
         Skip to content
       </a>
       <TopNav>
-        <Link href="/docs/getting-started">Docs</Link>
-        <Link href="https://github.com/markdoc/markdoc">GitHub</Link>
-        <Link href="https://github.com/markdoc/markdoc/discussions">
-          Community
-        </Link>
-        <Link href="https://twitter.com/StripeDev">Twitter</Link>
-        <span className="primary no-mobile">
-          <Link href="/sandbox">Try</Link>
-        </span>
+        <Link href="https://github.com/atlosdotorg/atlos">GitHub</Link>
+        <Link href="https://discord.gg/gqCcHc9Gav">Community</Link>
+        <Link href="https://twitter.com/atlosdotorg">Twitter</Link>
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc7SvfB_-rLvW3pqWiNzzHnKHjP1LiEBPT2YYOOP-D8WuAhog/viewform">Waitlist</Link>
       </TopNav>
       <div className="page">
         {isDocs ? <SideNav /> : null}
@@ -160,12 +155,9 @@ export default function MyApp(props) {
       </div>
       <div className="footer-bar">
         <Footer landing={isLandingPage}>
-          <Link href="/docs/getting-started">Docs</Link>
-          <Link href="https://github.com/markdoc/markdoc">GitHub</Link>
-          <Link href="https://github.com/markdoc/markdoc/discussions">
-            Community
-          </Link>
-          <Link href="https://twitter.com/StripeDev">Twitter</Link>
+          <Link href="https://discord.gg/gqCcHc9Gav">Community</Link>
+          <Link href="https://github.com/atlosdotorg/atlos">GitHub</Link>
+          <Link href="https://twitter.com/atlosdotorg">Twitter</Link>
         </Footer>
       </div>
       <style jsx global>
