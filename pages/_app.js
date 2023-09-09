@@ -83,8 +83,6 @@ export default function MyApp(props) {
   const isDocs = props.router.asPath.startsWith('/docs');
   const isLandingPage = props.router.pathname === '/';
 
-  React.useEffect(() => console.log(MARKDOC), []);
-
   return (
     <div className={`${isLandingPage ? 'page--landing' : ''}`}>
       <Head>
