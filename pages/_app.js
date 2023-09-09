@@ -21,8 +21,8 @@ import 'codemirror/lib/codemirror.css';
 
 import '../public/globals.css';
 
-const TITLE = 'Markdoc';
-const DESCRIPTION = 'A powerful, flexible, Markdown-based authoring framework';
+const TITLE = 'Atlos Help Center';
+const DESCRIPTION = 'A guide to the platform for visual investigations';
 const MARKDOC = `
 
 
