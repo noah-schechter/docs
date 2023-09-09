@@ -39,8 +39,9 @@ Atlos offers several tools for moderating viewing and editing access to individu
 ### Freezing
 Freezing an incident prevents viewers and editors from editing a incident's attributes, metadata, and source material. Project managers and owners can still edit a Frozen incident's data.
 
-We encourage you to not use this restriction as a means of sealing data when an investigation is completed (as a replacement for marking incidents as Complete). Use Frozen as an emergency moderation tool in extreme cases, not as a standard part of your workflow.
-
+{% callout type="caution" %}
+We encourage you to not use this restriction as a means of sealing data when an investigation is completed (as a replacement for marking incidents as [Complete](/docs/metadata#status)). Use Frozen as an emergency moderation tool in extreme cases, not as a standard part of your workflow.
+{% /callout %}
 #### How to freeze an incident
 To freeze an incident, project managers and owners can click the `Update` button in the Restrictions row of the Metadata pane. Add the Frozen restriction and click `Post update`.
 

@@ -9,7 +9,9 @@ description: Attributes are structured data that describe incidents.
 Attributes are structured data that describe incidents. Attributes make data easily searchable and provide structure for large-scale tagging or data coding projects. Each attribute corresponds to a single column in a spreadsheet-style investigation. 
 
 ## How to edit attributes
+{% callout %}
 This section describes how to edit an incident’s data. If you’re looking for a description of data model customization, refer to [Customize Attributes](#how-to-customize-attributes). 
+{% /callout %}
 
 To add an attribute that doesn’t yet have a value, click on the attribute’s name in the Add Attributes section of the Attributes pane.
 
