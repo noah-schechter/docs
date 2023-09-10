@@ -34,19 +34,26 @@ Tags are used for grouping incidents. To add a new tag, type a new label and pre
 Only project owners and managers can add and update tags. 
 
 ## Restrictions 
-Atlos offers several tools for moderating viewing and editing access to individual incidents. We recommend that you use these incident-level tools only when Atlos' project-level access controls are insufficient.
+Atlos offers several tools for moderating viewing and editing access to individual incidents. We recommend that you use these incident-level tools only when Atlos' project-level access controls are insufficient. Only project owners and managers can edit an incident's restrictions. 
 
 ### Freezing
 Freezing an incident prevents viewers and editors from editing a incident's attributes, metadata, and source material. Project managers and owners can still edit a Frozen incident's data.
 
 {% callout type="caution" %}
-We encourage you to not use this restriction as a means of sealing data when an investigation is completed (as a replacement for marking incidents as [Complete](/docs/metadata#status)). Use Frozen as an emergency moderation tool in extreme cases, not as a standard part of your workflow.
+We encourage you not to use this restriction as a means of sealing data when an investigation is completed (as a replacement for marking incidents as [Complete](/docs/metadata#status)). Use Frozen as an emergency moderation tool in extreme cases, not as a standard part of your workflow.
 {% /callout %}
+
 #### How to freeze an incident
-To freeze an incident, project managers and owners can click the `Update` button in the Restrictions row of the Metadata pane. Add the Frozen restriction and click `Post update`.
+To freeze an incident, project managers and owners can:
+1. Click the `Update` button in the Restrictions row of the Metadata pane. 
+2. Add the Frozen restriction. 
+3. Click `Post update`.
 
 ### Hiding
 Hiding an incident prevents viewers and editors from viewing an incident. Hidden incidents will not apepar in viewers' and editors' searches, homepages, notifications, or exports. Project managers and owners will still be able to view hidden incidents in their searches, homepages, notifications, and exports. 
 
 #### How to hide an incident
-To hide an incident, project managers and owners can click the `Update` button in the Restrictions row of the Metadata pane. Add the Hidden restriction and click `Post update`.
+To hide an incident, project managers and owners can:
+1. Click the `Update` button in the Restrictions row of the Metadata pane. 
+2. Add the Hidden restriction. 
+3. Click `Post update`.

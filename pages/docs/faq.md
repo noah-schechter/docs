@@ -13,7 +13,7 @@ Yes. You can upload a CSV to add many incidents at the same time. See [here](/do
 Incidents are the core unit of content on Atlos. They refer to specific events that are be depicted by one or more pieces of source material. There's no one way to define an incident in your investigation, but we've included several recommendations about how to scope incidents [here](/docs/incidents#incidents-are-the-atoms-of-atlos). 
 
 ## Is Atlos safe for my investigation?
-It depends. We take safety incredibly seriously and recently passeed an independent security audit conducted by NCC Group. Using Atlos also carries risk. There's no short answer to this question, so we've dedicated an entire section of the Help Center to our [security and risk model](/docs/security-and-risk-model). 
+It depends. We take safety incredibly seriously and recently udnerwent an independent security audit conducted by NCC Group. But like all digital tools, using Atlos also carries risk. There's no short answer to this question, so we've dedicated an entire section of the Help Center to our [security and risk model](/docs/security-and-risk-model). 
 
 ## What infrastructure does Atlos use? 
 #### Hosting

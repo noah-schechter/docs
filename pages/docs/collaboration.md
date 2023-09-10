@@ -7,15 +7,20 @@ description: A guide to collaborating with other investigators on Atlos.
 
 Open source investigations thrive in large investigative communities. We think Atlos shines as a home for this type of large-scale collaboration. 
 
-## How to Add a Member 
-To add a member to a project, navigate to the Projects page on the left sidebar menu and select the relevant project. In the Members tab, which is visible only to project owners, click the Add member button. Add one member at a time by entering their username, choosing a role, and pressing Add member. 
+## How to add a member 
+To add a member to a project: 
+1. Navigate to the Projects page on the left sidebar menu.
+2. Select the relevant project. 
+3. Naviage to the Members tab, which is visible only to project owners.
+4. Click the `Add member` button. 
+5. Add one member at a time by entering their username, choosing a role, and pressing `Add member`. 
 
 When adding a new member, choose each collaborator’s role carefully. Members’ roles dictate their editing permissions and data access. You can learn more about roles and permissions below.
 
-## How to Change an Existing Member’s Role
+## How to change an existing member’s role
 Navigate to the Members tab (which is visible only to owners [hyperlink to owner article]) of your project. Press the Edit button on the member whose role you want to change. Choose the member’s new role from the drop-down menu.
 
-## Roles & Permissions
+## Roles & permissions
 There are four roles on Atlos. We’ve listed them below, in order of decreasing authority.
 
 ### Owner
@@ -49,7 +54,8 @@ Viewers can only view and comment on incidents; they cannot edit project data. V
 - View and comment on incidents
 - Bulk export data
 
-## Minimum Access Policy
-Data on Atlos is often sensitive. We recommend following a minimum access policy to protect your investigation. Minimum access policy, also known as the principle of least privilege, restricts each researcher to only the least amount of access to privileged information and permissions that they need to perform their work (Okta, 2023).
 
-On Atlos, a minimum access policy means that, for example, an investigator joining a project only so that they can view data should be granted a Viewer role.
+{% callout %}
+Data on Atlos is often sensitive. We recommend following a **minimum access policy** to protect your investigation. A minimum access policy restricts each researcher to the lowest level of access to privileged information and permissions needed to perform their work. 
+On Atlos, a minimum access policy means that, for example, an investigator joining a project only so that they can view data should be granted a Viewer role, not a role that gives them edit access. TODO: add citation/links
+{% /callout %}

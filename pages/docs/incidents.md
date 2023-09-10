@@ -6,7 +6,7 @@ description: Incidents are the core unit of content on Atlos.
 # {% $markdoc.frontmatter.title %}
 
 ## Incidents are the atoms of Atlos 
-Incidents are the core unit of content on Atlos. One incident generally corresponds to one event. Atlos isn’t opinionated on how you define an incident; different definitions may be suitable for different investigations. However, we encourage you to consider several factors as you design your data model:
+Incidents are the core unit of content on Atlos. One incident generally corresponds to one event. Atlos isn’t opinionated about how you define an incident; different definitions may be suitable for different investigations. However, we encourage you to consider several factors as you design your data model:
 -  **Incidents must have a single location and date—** Incidents on Atlos should be scoped to (or approximated by) a single location and date. This is because of a technical restriction on Atlos; each incident may only have one geolocation and date attribute. We implemented this policy because we wouldn’t be able to map incidents with two geolocation values. Similarly, we wouldn’t be able to filter incidents by date if each had two date values. 
 -  **Incidents can include one or more pieces of source material—** Incidents can be more than just a single source link. The incident page on Atlos is designed to include and archive many pieces of source material. That means each incident can be supported by an arbitrary number of social media posts, websites, photos, or videos. 
 -  **Incidents should be describable in one sentence—** If your incident description is several sentences long, you’re likely trying to capture too many events in a single incident. Try breaking that event down into several components. 
@@ -36,10 +36,13 @@ During the incident creation process, you’ll be prompted to complete several a
 ## How to delete an incident 
 To protect data integrity, Atlos makes actually removing content from the platform impossible. Instead, deleting an incident moves the incident from the main catalog to a separate pane of the project called Deleted. Deleted incidents do not appear in search results or exports but will remain visible by project owners and managers in the Deleted pane of each project. 
 
-Project owners and managers can delete incidents by clicking the three vertical dots on the top-right corner of the incident page and then clicking `Delete`.
+To delete an incident, Project owners and managers can: 
+1. Click the three vertical dots on the top-right corner of the incident page.
+2. Click `Delete`.
 
+{% callout type="warning" %}
 If you think an incident in your project contains data that is so sensitive that it must be removed from Atlos’ database, and that other moderation tools, like marking an incident or comment as Hidden or a piece of media as Removed, are not sufficient, please contact us at [contact@atlos.org](mailto:contact@atlos.org). 
-
+{% /callout %}
 
 
 

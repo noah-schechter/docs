@@ -10,7 +10,10 @@ Projects are the unit of investigations on Atlos. They’re also the level at wh
 - **Customize attributes—** Investigators can easily change a project’s attributes to better suit their research. Attributes are customizable only at the project level; all incidents in a project have the same data model.
 
 ## How to create a new project 
-Navigate to the Projects tab to create a new project. On the top-right corner, click the `New Project` button. Enter a name, description, and code for the project. 
+1. Navigate to the Projects tab.
+2. On the top-right corner, click the `New Project` button. 
+3. Enter a name, description, and code for the project. 
+4. Click `Save`.
 
 ### Description 
 Project descriptions provide space for additional details about a project. For example, investigators might include links to published reports that use project data in the description. 
@@ -24,4 +27,5 @@ To edit your existing project's data, navigate to its Manage pane. Project owner
 Read [here](/docs/attributes#how-to-customize-attributes) for more information on customizing a project's attributes. 
 [VIDEO]
 
-## How to Copy an Incident to a Second Project
+## How to copy an incident to a second project 
+TODO

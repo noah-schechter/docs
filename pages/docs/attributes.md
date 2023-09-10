@@ -27,11 +27,17 @@ Attributes can be customized for each project, but Atlos provides some basic att
 ## How to customize attributes 
 Sometimes the default attributes aren’t sufficient. A project might need attributes or values that better describe its incidents or add more detailed context. This section refers to customizing an entire project’s data model. If you’re looking to edit an incident’s attributes’ values, refer to [How To Edit Attributes](#how-to-edit-attributes). 
 
-To customize a project’s data model, navigate to the Projects page and select the relevant project. Click on the Manage page and scroll down to the Attributes pane to begin customizing a project’s attributes. Note that only project owners and managers can customize attributes. 
-
-To add a new attribute to a project’s data model, click `Add Attribute` on the right side of the Attributes pane. 
- 
-To edit a project’s existing attribute, click the pencil icon on the right side of the attribute’s row. All features of the attribute are customizable, including Name, Type, Description, and Options. Note that removing or editing a project’s attributes once an investigation has begun risks undermining the integrity of your project’s data.
+To customize a project’s data model: 
+1. Navigate to the Projects page. 
+2. Select the relevant project. 
+3. Click on the Manage page and scroll down to the Attributes pane. 
+4. a) To add a new attribute to a project’s data model, click `Add Attribute` on the right side of the Attributes pane. 
+   
+   b) To edit a project’s existing attribute, click the pencil icon on the right side of the attribute’s row. 
+5. Add or edit the attribute's Name, Type, Description, or Options. 
+6. Click `Save`.
+   
+All features of the attribute are customizable, including Name, Type, Description, and Options. Note that removing or editing a project’s attributes once an investigation has begun risks undermining the integrity of your project’s data.
 
 Once you’ve opened the Edit Attribute window, you’ll see four fields:
 - **Attribute Name—** The attribute's name. Incident Type, for example.

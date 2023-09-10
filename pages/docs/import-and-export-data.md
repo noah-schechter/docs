@@ -9,7 +9,14 @@ Data on Atlos is easily portable. Our goal is to support your investigations whe
 ## How to Import Data
 Researchers that have accumulated a large amount of data before beginning working on Atlos can import their data into Atlos. However, we recommend keeping your investigation on Atlos whenever possible. Our change-tracking and archival systems can’t be used on data that’s not yet in Atlos—the faster data is added to the platform, the faster we can assure its integrity. 
 
-To import data, navigate to Projects and select the relevant project. The bulk import function is at the bottom of the Manage tab. Click `Upload a file` to add a CSV of incident data to Atlos. See Formatting below for a full explanation of acceptable CSV formats. Note that bulk import is accessible only to project owners. 
+To import data:
+1. Navigate to the Projects page.
+2. Select the relevant project. 
+3. Navigate to the Manage tab and scroll to the bulk import section at the bottom of the page. 
+4. Click `Upload a file`. 
+5. Click `Publish to Atlos` once Atlos has processed your CSV. 
+
+See Formatting below for a full explanation of acceptable CSV formats. Note that bulk import is accessible only to project owners. 
 
 ### What is a CSV? 
 Atlos uses CSVs to make the platform compatible with all spreadsheet software. CSVs standardize spreadsheet data as values separated by commas. 
@@ -40,10 +47,11 @@ Unclaimed,Incident along river,Not Sensitive
 In Progress,Incident along road,"Deleted by Source,Deceptive or Misleading" 
 
 ### Recommended Workflow
-We intend for CSV files to be a tool for transferring data from your spreadsheet to Atlos. We recommend: 
-1. Editing your data in a spreadsheet (Google Sheets or Microsoft Excel both work),
-2. Exporting your spreadsheet as a CSV, and
-3. Importing that CSV into Atlos. 
+We intend for CSV files to be a tool for transferring data from your spreadsheet to Atlos. We recommend you:
+1. Edit your data in a spreadsheet (Google Sheets or Microsoft Excel both work).
+2. Export your spreadsheet as a CSV.
+3. Import that CSV into Atlos. 
+   
 In this article, we visualize the format Atlos requires for bulk import in its spreadsheet format, before the data has been exported into a CSV.
 
 ### Formatting for Bulk Import
@@ -132,9 +140,9 @@ These fields will not impact data that has been bulk imported to Atlos because t
 
 [VIDEO]
 
-## How to Export Data
+## How to export data
 We think Atlos is a great tool for collaboration at scale. It’s not great for everything. Whether investigators are looking to archive media forensically, publish their data, or just take another look in a Google Sheet, sometimes it’s necessary to export data. Atlos make exporting to a CSV extremely simple. See [here](#what-is-a-csv) for more information on the CSV file type.
 
 To export all of a project’s data, navigate to Projects and select the project whose data you wish to export. Once you’ve opened a project page, you will find the `Export` button on the top-right corner of the screen.
 
-To export the results of a search, click the [insert inline image] icon in the search bar.
+To export the results of a search, click the [TODO: insert inline image] icon in the search bar.
