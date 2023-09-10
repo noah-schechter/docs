@@ -176,7 +176,7 @@ Atlos addresses the risk of archival failure and inconsistency by:
 #### How can our users address this risk?
 Our users can address the risk of archival failure and inconsistency by supplementing our archival processes with their own. For example, users can connect to our API to read source material and conduct their own independent archives (e.g., using Bellingcat’s [auto-archiver](https://github.com/bellingcat/auto-archiver), [Hunchly](https://www.hunch.ly/), or [Browsertrix Crawler](https://github.com/webrecorder/browsertrix-crawler)). Users interested in applying source material to evidentiary purposes should explore partnering with an organization with deep expertise in legally admissible archival, such as [Mnemonic](https://mnemonic.org/).
 
-## Platform longevity and sustainability
+## Platform longevity
 Atlos is a small non-profit organization. We don’t plan on disappearing any time soon. But we also recognize that times change and projects can come to an end — whether we like it or not.
 - If we do make the difficult decision to shut down Atlos, we commit to providing all our users with at least six months of notice to export their data and migrate to another platform. (Note that Atlos is an open source project, so there will always be an opportunity for our users to host Atlos themselves.) We will do everything in our power to support a smooth transition off Atlos.
 - In the case that the Atlos team is incapacitated (or dies), contingency plans have been made with trusted partners to gracefully wind down the project and ensure data is available to our users. Put bluntly: if we die, we’ve made plans for someone to gracefully shut Atlos down.
@@ -190,4 +190,4 @@ If you have any questions or feedback, please contact us at [contact@atlos.org](
 We welcome feedback and contributions to this risk model. Here are some areas that may warrant additional explanation:
 - The precise situations in which we would and would not honor legal requests
 - How we protect the integrity of our source code and CI pipelines
-- A precise list of Atlos’ vendors, and what access those vendors have
+- A precise list of Atlos’ vendors and what access those vendors have

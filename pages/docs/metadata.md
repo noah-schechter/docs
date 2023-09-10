@@ -5,21 +5,19 @@ description: Metadata is used for coordinating workflows on Atlos.
 
 # {% $markdoc.frontmatter.title %}
 
-Metadata is used for coordinating workflows on Atlos. There are four elements to Metadata:
+Investigators use metadata to coordinate workflow on Atlos. There are four components to metadata:
 
 ## Status 
 Status refers to the status of an incident in the investigative workflow. Options include:
-Unclaimed—Not actively being worked on. Unclaimed incidents are the best places to start contributing to a project. 
+- **Unclaimed—** Not actively being worked on. Unclaimed incidents are the best places to start contributing to a project. 
 - **In Progress—** Actively being worked on. Check in with the researcher who claimed an incident before contributing. Access this information by clicking on the profile image next to Status, or by clicking History after selecting Update next to Status.
 - **Help Needed—** Stuck, or ready for a second opinion. Be sure to explain why you’re marking an incident as Help Needed so other researchers know where you need help.
 - **Ready for Review—** Ready for a moderator’s verification. This applies to incidents where all applicable attributes have been updated. 
 - **Completed—** Investigation complete. A moderator will mark an incident as ‘Completed’ once they’ve verified an incident’s attributes. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
 - **Canceled—** Will not be completed (out of scope, duplicate, etc.). A moderator will mark an incident as ‘Canceled’ if it’s not relevant or if it’s a duplicate of an existing incident. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
-
+TODO: consider adding How to edit status and senstifity sectiosn 
 ## Sensitivity 
-Atlos takes safety seriously. To ensure investigators’ safety, every incident must have a sensitivity value. We use this sensitivity value to communicate media’s sensitivity to investigators before they view it, because researchers are less likely to be traumatized by graphic content when they know what to expect. If content is graphic, we also display a clickthrough to further prevent inadvertent exposures. 
-
-When archiving source material, it is important to take into account the safety of your fellow researchers. If you suspect that an incident contains graphic or disturbing source material, be sure to reflect that in its Sensitivity.
+Atlos takes safety seriously. To ensure investigators’ safety, every incident must have a sensitivity value. We use this value to communicate media’s sensitivity to investigators before they view it, because researchers are less likely to be traumatized by graphic content when they know what to expect. If content is graphic, we also display a clickthrough to further prevent inadvertent exposures. 
 
 Sensitivity options include:
 - **Not Sensitive—** Nothing is potentially graphic or sensitive in the source material of the incident
@@ -29,7 +27,7 @@ Sensitivity options include:
 - **Deceptive or Misleading—** The incident’s source material includes information that has been found to be deceptive.
 
 ## Tags 
-Tags are used for grouping incidents. To add a new tag, type a new label and press Enter in the tag search bar. 
+Tags are used for grouping incidents. To add a new tag, type a new label and press **Enter** in the tag search bar. 
 
 Only project owners and managers can add and update tags. 
 
@@ -40,20 +38,20 @@ Atlos offers several tools for moderating viewing and editing access to individu
 Freezing an incident prevents viewers and editors from editing a incident's attributes, metadata, and source material. Project managers and owners can still edit a Frozen incident's data.
 
 {% callout type="caution" %}
-We encourage you not to use this restriction as a means of sealing data when an investigation is completed (as a replacement for marking incidents as [Complete](/docs/metadata#status)). Use Frozen as an emergency moderation tool in extreme cases, not as a standard part of your workflow.
+We encourage you not to use this restriction to seal data when an investigation is completed (as a replacement for marking incidents as [Complete](/docs/metadata#status)). Use Frozen as an emergency moderation tool in extreme cases, not as a standard part of your workflow.
 {% /callout %}
 
 #### How to freeze an incident
 To freeze an incident, project managers and owners can:
-1. Click the `Update` button in the Restrictions row of the Metadata pane. 
+1. Click the **Update** in the **Restrictions** row of the incident's **Metadata** pane. 
 2. Add the Frozen restriction. 
-3. Click `Post update`.
+3. Click **Post update**.
 
 ### Hiding
 Hiding an incident prevents viewers and editors from viewing an incident. Hidden incidents will not apepar in viewers' and editors' searches, homepages, notifications, or exports. Project managers and owners will still be able to view hidden incidents in their searches, homepages, notifications, and exports. 
 
 #### How to hide an incident
 To hide an incident, project managers and owners can:
-1. Click the `Update` button in the Restrictions row of the Metadata pane. 
+1. Click the **Update** button in the **Restrictions** row of the incident's **Metadata** pane. 
 2. Add the Hidden restriction. 
-3. Click `Post update`.
+3. Click **Post update**.

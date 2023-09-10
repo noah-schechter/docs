@@ -10,36 +10,26 @@ Attributes are structured data that describe incidents. Attributes make data eas
 
 ## How to edit attributes
 {% callout %}
-This section describes how to edit an incident’s data. If you’re looking for a description of data model customization, refer to [Customize Attributes](#how-to-customize-attributes). 
+This section describes how to edit an incident’s data. If you’re looking for a description of data model customization, refer to [How to customize attributes](#how-to-customize-attributes). 
 {% /callout %}
 
-To add an attribute that doesn’t yet have a value, click on the attribute’s name in the Add Attributes section of the Attributes pane.
+To add an attribute that doesn’t yet have a value, click on the attribute’s name in the **Add Attributes** section of the **Attributes** pane.
 
-To update an attribute that already has a value, click `Update` on the right side of the Attributes pane. 
+To update an attribute that already has a value, click **Update** on the right side of the **Attributes** pane. 
 
-After opening the Update window, you’ll see at least two fields. The first field(s) provide space to edit the attribute. The last field is an optional space to explain your change. This explanation will appear in the Feed, which serves as a log of changes to the incident’s data. We recommend including an explanation for all non-trivial updates.
-
-Once you’ve finished editing the attribute’s value and explaining your change, click `Post update`. You’ll see the update reflected in the Attributes pane and in the Feed. 
+After opening the **Update** window:
+1. Add or edit the attribute's value(s). 
+2. Optionally explain your change in the provided field. We recommend including an explanation for all non-trivial updates.
+3. Click **Post update**. You’ll see the update reflected in the **Attributes** pane and in the **Feed**. 
 
 ## Core attributes are permanent
 Attributes can be customized for each project, but Atlos provides some basic attributes to help investigators get started. Some of these attributes—like Description, Date, Geolocation, and More Info—are core attributes and can’t be removed from a project’s data model. Core attributes are necessary for properly displaying incident data; permitting investigators to remove them would make Atlos less usable.
 
-## How to customize attributes 
-Sometimes the default attributes aren’t sufficient. A project might need attributes or values that better describe its incidents or add more detailed context. This section refers to customizing an entire project’s data model. If you’re looking to edit an incident’s attributes’ values, refer to [How To Edit Attributes](#how-to-edit-attributes). 
+## Custom attributes 
+Sometimes the default attributes aren’t sufficient. A project might need attributes or values that better describe its incidents or add more detailed context. 
 
-To customize a project’s data model: 
-1. Navigate to the Projects page. 
-2. Select the relevant project. 
-3. Click on the Manage page and scroll down to the Attributes pane. 
-4. a) To add a new attribute to a project’s data model, click `Add Attribute` on the right side of the Attributes pane. 
-   
-   b) To edit a project’s existing attribute, click the pencil icon on the right side of the attribute’s row. 
-5. Add or edit the attribute's Name, Type, Description, or Options. 
-6. Click `Save`.
-   
-All features of the attribute are customizable, including Name, Type, Description, and Options. Note that removing or editing a project’s attributes once an investigation has begun risks undermining the integrity of your project’s data.
-
-Once you’ve opened the Edit Attribute window, you’ll see four fields:
+### Components of custom attributes
+Custom attributes have four components: 
 - **Attribute Name—** The attribute's name. Incident Type, for example.
 - **Attribute Type—** This refers to the type of data the attribute will contain:
   - **Text—** Text attributes are free-response text boxes. These can be used for one-word values or for longer content.
@@ -53,3 +43,20 @@ Once you’ve opened the Edit Attribute window, you’ll see four fields:
 
 - **Attribute Description—** An optional description of the attribute. We highly recommend including a detailed description of how you expect investigators to use the attribute to avoid confusion. 
 - **Attribute Options—** Attribute options are the potential values for each attribute. Specify each option by writing a value pressing Enter, and repeating until you’ve listed every option. 
+
+### How to customize attributes
+{% callout type="warning" %}
+**Editing a project’s attributes risks undermining the integrity of your data.** 
+
+If you remove an attribute from your project's data model, that attribute—and its values—will be removed from all incidents in the project.
+{% /callout %}
+
+To customize a project’s data model: 
+1. Navigate to the **Projects** page. 
+2. Select the relevant project. 
+3. Click on the **Manage** page and scroll down to the **Attributes** pane. 
+4. a) To add a new attribute to a project’s data model, click **Add Attribute** on the right side of the **Attributes** pane. 
+   
+   b) To edit a project’s existing attribute, click the pencil icon on the right side of the attribute’s row. 
+5. Add or edit the attribute's Name, Type, Description, or Options. 
+6. Click **Save**.
