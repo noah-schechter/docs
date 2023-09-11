@@ -565,3 +565,47 @@ main .CodeMirror-scroll::-webkit-scrollbar {
     display: initial;
   }
 }
+
+img { 
+  margin: auto;
+  display: block;
+  padding-top: 1rem;
+}
+
+em { 
+  text-align: center;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+img[alt="An incident ID"] {
+  max-width:  600px; 
+}
+
+img[alt="An incident's attributes pane"] {
+  max-width:  800px; 
+}
+
+img[alt="An incident's metadata pane"] {
+  max-width:  400px; 
+}
+
+img[alt="An incident's source material pane"] {
+  max-width: 300px;
+}
+
+img[alt="An incident's feed"] {
+  max-width: 600px;
+}
+
+img[alt="The New Incident page"] {
+  max-width: 500px;
+}
+
+img[alt="The Delete incident button"] {
+  max-width: 300px;
+}
+
+img[alt="The Restore incident button"] {
+  max-width: 300px;
+}
