@@ -10,7 +10,7 @@ Investigators use metadata to coordinate workflow on Atlos. There are four compo
 ## Status 
 Status refers to the status of an incident in the investigative workflow. Options include:
 - **Unclaimed—** Not actively being worked on. Unclaimed incidents are the best places to start contributing to a project. 
-- **In Progress—** Actively being worked on. Check in with the researcher who claimed an incident before contributing. Access this information by clicking on the profile image next to Status, or by clicking History after selecting Update next to Status.
+- **In Progress—** Actively being worked on. Check in with the researcher who claimed an incident before contributing. To find which investigator claimed the incident, click on the profile image next to **Status** on the **Metadata** pane or tap **History** after opening the **Status** update window.
 - **Help Needed—** Stuck, or ready for a second opinion. Be sure to explain why you’re marking an incident as Help Needed so other researchers know where you need help.
 - **Ready for Review—** Ready for a moderator’s verification. This applies to incidents where all applicable attributes have been updated. 
 - **Completed—** Investigation complete. A moderator will mark an incident as ‘Completed’ once they’ve verified an incident’s attributes. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
@@ -20,11 +20,11 @@ TODO: consider adding How to edit status and senstifity sectiosn
 Atlos takes safety seriously. To ensure investigators’ safety, every incident must have a sensitivity value. We use this value to communicate media’s sensitivity to investigators before they view it, because researchers are less likely to be traumatized by graphic content when they know what to expect. If content is graphic, we also display a clickthrough to further prevent inadvertent exposures. 
 
 Sensitivity options include:
-- **Not Sensitive—** Nothing is potentially graphic or sensitive in the source material of the incident
-- **Personal Information Visible—** The incident’s source material includes information that could be used to identify individuals. For example, if a video of a potential human rights violation is shot from a window of an apartment, the video could be used to geolocate the apartment. In repressive states, this can lead to the individuals filming the incident to be punished severely by the local administration as the people living in the apartment were most likely the people who filmed the incident. Publishing the material further might pose a danger for the individuals’ privacy or safety.
+- **Not Sensitive—** Nothing is potentially graphic or sensitive in the incident's source material. 
+- **Personal Information Visible—** The incident’s source material includes information that could be used to identify individuals. For example, if a video of a potential human rights violation is filmed from a window of an apartment, the video could be used to geolocate the apartment. In repressive states, this can lead to witnesses facing retribution by their government. Publishing or publicizing the source material might pose a danger for the individuals’ safety.
 - **Graphic Violence—** The incident’s source material contains potentially distressing material. Viewer discretion is advised.
-- **Deleted by Source—** The incident’s source material has been deleted by the source.
-- **Deceptive or Misleading—** The incident’s source material includes information that has been found to be deceptive.
+- **Deleted by Source—** The incident’s source material has been deleted by the source. 
+- **Deceptive or Misleading—** The incident’s source material includes information that has been found to be deceptive. The incident might be a deepfake or manufactured evidence of a false flag operation. 
 
 ## Tags 
 Tags are used for grouping incidents. To add a new tag, type a new label and press **Enter** in the tag search bar. 
@@ -35,7 +35,7 @@ Only project owners and managers can add and update tags.
 Atlos offers several tools for moderating viewing and editing access to individual incidents. We recommend that you use these incident-level tools only when Atlos' project-level access controls are insufficient. Only project owners and managers can edit an incident's restrictions. 
 
 ### Freezing
-Freezing an incident prevents viewers and editors from editing a incident's attributes, metadata, and source material. Project managers and owners can still edit a Frozen incident's data.
+Freezing an incident prevents viewers and editors from editing a incident's attributes, metadata, and source material. Project managers and owners can still edit a frozen incident's data.
 
 {% callout type="caution" %}
 We encourage you not to use this restriction to seal data when an investigation is completed (as a replacement for marking incidents as [Complete](/docs/metadata#status)). Use Frozen as an emergency moderation tool in extreme cases, not as a standard part of your workflow.

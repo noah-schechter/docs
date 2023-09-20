@@ -9,7 +9,7 @@ Open source investigations thrive in large investigative communities. We think A
 
 ## How to add a member 
 To add a member to a project: 
-1. Navigate to the **Projects** page on the left sidebar menu.
+1. Navigate to the **Projects** page.
 2. Select the relevant project. 
 3. Navigate to the **Members** page, which is visible only to project owners. (TODO: confirm this is accurate)
 4. Click **Add member**. 
@@ -19,7 +19,7 @@ When adding a new member, choose each collaborator’s role carefully. Members�
 
 ## How to change an existing member’s role
 To change an existing member's role:
-1. Navigate to the **Projects** page on the left sidebar menu.
+1. Navigate to the **Projects** page.
 2. Select the relevant project. 
 3. Navigate to the **Members** page, which is visible only to project owners. (TODO: confirm this is accurate)
 4. Click the **Edit** button next to the member whose role you want to change. 

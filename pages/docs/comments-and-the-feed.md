@@ -1,17 +1,17 @@
 ---
-title: Comments and the Feed
+title: Comments and the feed
 description: The home for incident-level collaboration on Atlos.
 ---
 
 # {% $markdoc.frontmatter.title %}
 
-The Feed is the home for incident-level collaboration on Atlos. It's a detailed changelog modeled after GitHub and Wikipedia. This section is a brief overview of the Feed’s core functions.
+The feed is the home for incident-level collaboration on Atlos. It's a detailed changelog modeled after GitHub and Wikipedia. This section is a brief overview of the Feed’s core functions.
 
 ## Change-tracking
-When any investigator makes any change to an incident’s data—by adding new source material, updating an attribute, or editing its Status—their change will appear in the Feed. If the investigator included an explanation for their change, this explanation will immediately follow the change in the feed. 
+When any investigator makes any change to an incident’s data—by adding new source material, updating an attribute, or editing its status—their change will appear in the feed. If the investigator included an explanation for their change, this explanation will immediately follow the change in the feed. 
 
 ## Comments
-If an investigator wants to respond to a change or start a new conversation, they can leave a comment in the Feed.
+If an investigator wants to respond to a change or start a new conversation, they can leave a comment in the feed.
 
 ## File upload
 Geolocations often involve reference imagery. To upload images or other files to comments, click the [paperclip icon] in the bottom-left corner of the text box. 

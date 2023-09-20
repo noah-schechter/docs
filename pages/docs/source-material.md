@@ -13,16 +13,19 @@ Source material takes two forms on Atlos: file uploads and archived links.
 Investigators can easily upload files to Atlos’ source material pane. 
 
 To upload a file: 
-1. Click `Add Material` in the Source Material pane of the incident page. 
-2. Click `Manual Upload`. 
-3. Drag and drop your file or click Upload file to browse your computer. 
+1. Click **Add Material** in the **Source Material** pane of the incident page. 
+2. Click **Manual Upload**. 
+3. Drag and drop your file or click **Upload file** to browse your computer. 
 4. If the file originated online, add its source link in the provided field. 
-5. Finally, click `Publish to Atlos`. 
+5. Click **Publish to Atlos**. 
 
 The Source Material upload process accepts all files smaller than 250 MB. 
 
 ## Automatic archival 
-Investigators can also paste a link into Atlos’ automatic archival tool. To archive a link, click `Add Material` in the Source Material pane of the incident page. Then paste your link and click `Publish to Atlos`. 
+Investigators can also paste a link into Atlos’ automatic archival tool. To archive a link:
+1. Click **Add Material** in the **Source Material** pane of the incident page. 
+2. Paste your link into the provided field. 
+3. Click **Publish to Atlos**. 
 
 ### Artifacts 
 Atlos’ archival system will attempt to archive the following artifacts:
@@ -48,21 +51,23 @@ In the merging process, you’ll need to choose which incident you’ll be mergi
 
 To merge media:
 1. Navigate to the donor incident. 
-2. In the top-right corner of the incident page, click the three vertical dots. 
-3. Click `Merge Media`. 
+2. Click the three dots in the top-right corner of the incident page. 
+3. Click **Merge Media**. 
 4. Paste in the incident ID of the receiving incident. 
-5. Click `Merge`. 
+5. Click **Merge**. 
    
-Once you’ve verified the media was successfully merged, we recommend changing the Status of the donor incident to Canceled. Atlos will not automatically change the donor incident’s Status. ![img]("https://github.com/tailwindlabs/heroicons/blob/master/src/24/solid/academic-cap.svg")
+Once you’ve verified the media was successfully merged, we recommend changing the Status of the donor incident to Canceled. Atlos will not automatically change the donor incident’s Status. 
 
 ## How to hide source material
+Atlos offers two options for hiding source material that has been added by accident. All investigators can minimize source material, which moves it to a collapsible section of the Source Material pane. Project owners and managers can also remove source material, which makes it visible only to other project owners and managers. 
+
 ### Minimizing source material 
-If you add source material to an incident in error, you can hide the material from view by minimizing it. Atlos won't display minimized source material in the main Source Material pane. It will still be visible under a separate section of the Source Material pane, accessible by clicking the `View minimized media` button.  Minimizing source material impacts its visibility for all members of a project. 
+If you add source material to an incident in error, you can hide the material from view by minimizing it. Atlos won't display minimized source material in the main Source Material pane. It will still be visible under a separate section of the Source Material pane, accessible by clicking the **View minimized media** button.  Minimizing source material impacts its visibility for all members of a project. 
 
 #### How to minimze source material 
 To minimize media on the Source Material pane: 
-1. Click the three dots to the right of a piece of source material. 
-2. Click `Minimize`. 
+1. Click the three dots to the right of the piece of source material. 
+2. Click **Minimize**. 
 
 If you already have a piece of source material's artifacts window open, just click `Minimize` on the left side of the window. 
 
@@ -70,24 +75,29 @@ If you already have a piece of source material's artifacts window open, just cli
 If you have minimized source material in error, you can easily restore the material. 
 
 To restore minimized source material:
-1. Click `View minimized media`. 
+1. Click **View minimized media**. 
 2. Click the three dots to the right of the piece of source material. 
-3. Click `Unminimize`. 
+3. Click **Unminimize**. 
 
 If you already have a piece of source material's aritifacts window open, just click `Unminimze` on the left side of the window.
 
 ### Removing source material 
-Project owners and managers can also remove source material. While minimized source material remains accessible (albeit hidden) to all members of a project, source material that has been removed remains accessible only to project owners and managers. 
+Project owners and managers can also remove source material. While minimized source material remains accessible (albeit hidden) to all members of a project, source material that has been removed is accessible only to project owners and managers. 
 
 #### How to remove source material 
 To remove media on the Source Material pane:
-1. Click the three dots to the right of a piece of source material.
-2. Click `Remove`.
+1. Click the three dots to the right of the piece of source material.
+2. Click **Remove**.
 
-If you already have a piece of source material's artifacts window open, just click `Remove` on the left side of the window.
+If you already have a piece of source material's artifacts window open, just click **Remove** on the left side of the window.
 
 #### How to restore removed source material
-If you have removed source material in error, you can easily restore the material. First click `View removed media`. Then click the three dots to the right of a piece of source material and click `Undo Removal`. If you already have a piece of source material's aritifacts window open, just click `Undo Removal` on the left side of the window.
+If you have removed source material in error, you can easily restore the material. 
+1. Click **View removed media**. 
+2. Click the three dots to the right of the piece of source material.
+3. Click **Undo Removal**. 
+
+If you already have a piece of source material's aritifacts window open, just click **Undo Removal** on the left side of the window.
 
 {% callout %}
 **Why can't I delete source material?**
@@ -95,3 +105,6 @@ If you have removed source material in error, you can easily restore the materia
 To protect the integrity of investigators' data, Atlos makes it impossible to actually remove content from the platform. 
 If you think source material in your project is so sensitive that it must be removed from Atlos’ database and that other moderation tools such as Removing the material are insufficient, please contact us at [contact@atlos.org](mailto:contact@atlos.org).
 {% /callout %}
+
+
+![img](/public/logo.png)

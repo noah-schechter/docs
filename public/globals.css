@@ -609,3 +609,12 @@ img[alt="The Delete incident button"] {
 img[alt="The Restore incident button"] {
   max-width: 300px;
 }
+
+img[alt="The incident update window"] {
+  max-width: 500px;
+}
+
+img[alt="The attribute editing window"] {
+  max-width: 400px;
+}
+

@@ -17,7 +17,7 @@ const items = [
       { href: '/docs/attributes', children: 'Attributes' },
       { href: '/docs/metadata', children: 'Metadata' },
       { href: '/docs/source-material', children: 'Source material' },
-      { href: '/docs/comments-and-the-feed', children: 'Comments and the Feed' }
+      { href: '/docs/comments-and-the-feed', children: 'Comments and the feed' }
     ]
   },
   {

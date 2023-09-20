@@ -6,9 +6,6 @@ description: Atlos is a non-profit and open source platform that enables visual 
 # {% $markdoc.frontmatter.title %}
 
 Atlos is a non-profit and open source platform that enables visual investigators to collaborate at scale. 
-![img](/docs/images/map.jpg)
-{% image src="/public/logo.svg" /%}
-{% image src="/logo.svg" /%}
 
 ## Atlos solves a process problem
 Atlos is a solution to a process problem: general-purpose tools like spreadsheets don’t adequately support large-scale visual investigations. We’re big fans of Google Sheets, but there are several areas where spreadsheets fall short in some large-scale investigations:
