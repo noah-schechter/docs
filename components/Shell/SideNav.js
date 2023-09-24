@@ -43,6 +43,7 @@ const items = [
   ]},
 { title: 'Technical',
 links: [
+  { href: '/docs/api', children: 'API'},
   { href: '/docs/self-hosting', children: 'Self-hosting'},
   { href: '/docs/contribute', children: 'Contribute'}
 ]}

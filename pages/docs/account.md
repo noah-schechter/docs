@@ -38,6 +38,6 @@ If you have forgotten your password:
 5. Follow the instructions you receive in your inbox. 
 
 ## Multi-factor authentication (MFA)
-We strongly recommend that all users enable multi-factor authentication (MFA) for their Atlos account. To enable MFA: 
+We implore all users enable multi-factor authentication (MFA) for their Atlos account. To enable MFA: 
 1. Navigate to the **Account** page by clicking **Account** on the left sidebar menu.
 2. Click the **Multi-factor auth** button on the **Account and Security** pane. 
