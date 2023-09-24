@@ -9,12 +9,12 @@ Atlos provides many options to slice and dice your data—you can view your cata
 
 ## Sorting data
 There are five ways to sort incidents on Atlos. The platform remembers your choice of sorting the next time you navigate to the Incidents page. 
-- _Newest Added_ shows the incident most recently added first. 
-- _Oldest Added_ shows the incident least recently added first.
-- _Recently Modified_ shows the incident whose data has been most recently updated first.
-- _Least Recently Modified_ shows the reverse order of Recently Modified, showing the incident whose data has been altered least recently first. 
-- _Description (A-Z)_ puts the incidents into an alphabetical order, showing first the incident whose description starts with an A.
-- _Description (Z-A)_ puts the incidents into reverse alphabetical order, showing first the incident whose description starts with an Z.
+- **Newest Added** shows the incident most recently added first. 
+- **Oldest Added** shows the incident least recently added first.
+- **Recently Modified** shows the incident whose data has been most recently updated first.
+- **Least Recently Modified** shows the reverse order of Recently Modified, showing the incident whose data has been altered least recently first. 
+- **Description (A-Z)** puts the incidents into an alphabetical order, showing first the incident whose description starts with an A.
+- **Description (Z-A)** puts the incidents into reverse alphabetical order, showing first the incident whose description starts with an Z.
 
 ## Data views
 There are three ways to view incidents on Atlos. 

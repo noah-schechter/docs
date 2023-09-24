@@ -105,6 +105,3 @@ If you already have a piece of source material's aritifacts window open, just cl
 To protect the integrity of investigators' data, Atlos makes it impossible to actually remove content from the platform. 
 If you think source material in your project is so sensitive that it must be removed from Atlos’ database and that other moderation tools such as Removing the material are insufficient, please contact us at [contact@atlos.org](mailto:contact@atlos.org).
 {% /callout %}
-
-
-![img](/public/logo.png)

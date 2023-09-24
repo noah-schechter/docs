@@ -143,12 +143,16 @@ These fields will not impact data that has been bulk imported to Atlos because t
 [VIDEO]
 
 ## Data export
-We think Atlos is a great tool for collaboration at scale, but it's not the best tool for *every* job. Whether investigators are looking to archive media forensically, publish their data, or just take another look in a Google Sheet, sometimes it’s necessary to export data. Atlos make exporting to a CSV extremely simple. See [here](#what-is-a-csv) for more information on the CSV file type.
+We think Atlos is a great tool for collaboration at scale, but it's not the best tool for every job. Whether investigators are looking to archive media forensically, publish data, or just take another look in a Google Sheet, sometimes it’s necessary to export data. Atlos make exporting to a CSV extremely simple. See [here](#what-is-a-csv) for more information on the CSV file type.
 
 ### How to export data
-To export all of a project’s data:x
+To export all of a project’s data:
 1. Navigate to **Projects** page.
 2. Select the project whose data you wish to export. 
 3. Click **Export** on the top-right corner of the project's page. 
 
 To export the results of any search, click the [TODO: insert inline image] icon in the search bar.
+
+{% callout %}
+To programatically extract data from your project, use our project-scoped [API](/docs/API).
+{% /callout %}
