@@ -7,6 +7,7 @@ const items = [
     title: 'Get started',
     links: [
       { href: '/docs/what-is-atlos', children: 'What is Atlos?'},
+      { href: '/docs/getting-started', children: 'Getting Started'},
       { href: '/docs/faq', children: 'FAQ' }
     ]
   },

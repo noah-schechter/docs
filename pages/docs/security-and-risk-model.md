@@ -117,7 +117,7 @@ We collect different usage information for different reasons. For example, we co
 We try to collect as little usage information as we responsibly can, and we implement strong security protections for the information we do collect.
 - We have a 90 day retention policy on our audit logging Slack channel.
 - We restrict our audit logs to the Atlos founders, who each have multi-factor authentication enabled on the account. Non-founding Atlos team members do not have access to this data.
-- We have [“strict privacy” mode](https://www.highlight.io/docs/getting-started/client-sdk/replay-configuration/privacy) enabled for Highlight, which prevents actual underlying user and investigation data from being sent to the Highlight platform (which is external to Atlos). For additional security, we redact key parts of the interface 
+- We have [“strict privacy” mode](https://www.highlight.io/docs/getting-started/client-sdk/replay-configuration/privacy) enabled for Highlight, which prevents actual underlying user and investigation data from being sent to the Highlight platform (which is external to Atlos). For additional security, we redact key parts of the interface  TODO: Is something missing here?
 
 #### How can our users address this risk?
 If you are concerned about your general physical location (as identified by your IP address) being present in our usage data, we strongly encourage you to use a VPN when connecting to Atlos. You may also use a browser extension such as uBlock Origin to disable our product analytics from collecting information about your interactions. However, we believe that neither of these steps are necessary for the majority of our users.
