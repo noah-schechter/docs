@@ -15,7 +15,7 @@ Status refers to the status of an incident in the investigative workflow. Option
 - **Ready for Review—** Ready for a moderator’s verification. This applies to incidents where all applicable attributes have been updated. 
 - **Completed—** Investigation complete. A moderator will mark an incident as ‘Completed’ once they’ve verified an incident’s attributes. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
 - **Canceled—** Will not be completed (out of scope, duplicate, etc.). A moderator will mark an incident as ‘Canceled’ if it’s not relevant or if it’s a duplicate of an existing incident. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
-TODO: consider adding How to edit status and senstifity sectiosn 
+
 ## Sensitivity 
 Atlos takes safety seriously. To ensure investigators’ safety, every incident must have a sensitivity value. We use this value to communicate media’s sensitivity to investigators before they view it, because researchers are less likely to be traumatized by graphic content when they know what to expect. If content is graphic, we also display a clickthrough to further prevent inadvertent exposures. 
 
@@ -43,7 +43,7 @@ We encourage you not to use this restriction to seal data when an investigation 
 
 #### How to freeze an incident
 To freeze an incident, project managers and owners can:
-1. Click the **Update** in the **Restrictions** row of the incident's **Metadata** pane. 
+1. Click the **Update** button in the **Restrictions** row of the incident's **Metadata** pane. 
 2. Add the Frozen restriction. 
 3. Click **Post update**.
 
