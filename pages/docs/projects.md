@@ -28,4 +28,9 @@ Read [here](/docs/attributes#how-to-customize-attributes) for more information o
 [VIDEO]
 
 ## How to copy an incident to a second project 
-TODO
+To copy a nincident to a second project:
+1. Navigate to the incident to be copied.
+2. Click the three vertical dots on the top-right corner of the incident page.
+3. Click the **Copy to Another Project** button.
+4. Select the project you want the incident to be copied to.
+5. Click **Copy**.
