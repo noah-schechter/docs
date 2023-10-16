@@ -17,7 +17,7 @@ To import data:
 4. Click **Upload a file**. 
 5. Click **Publish to Atlos** once Atlos has processed your CSV. 
 
-See the [formatting](/docs/import-and-export-data#formatting-for-bulk-import) section below for a full explanation of acceptable CSV formats. Note that bulk import is accessible only to project owners. (TOD0: verify permissions)
+See the [formatting](/docs/import-and-export-data#formatting-for-bulk-import) section below for a full explanation of acceptable CSV formats. Note that bulk import is accessible only to project owners and managers. 
 
 ### What is a CSV? 
 Atlos uses CSVs to make the platform compatible with all spreadsheet software. CSVs standardize spreadsheet data as values separated by commas. 
@@ -52,11 +52,10 @@ We intend for CSV files to be a tool for transferring data from your spreadsheet
 1. Edit your data in a spreadsheet (Google Sheets or Microsoft Excel both work).
 2. Export your spreadsheet as a CSV.
 3. Import that CSV into Atlos. 
-   
-On this page, we visualize the format Atlos requires for bulk import in its spreadsheet format before the data has been exported into a CSV.
 
 ### Formatting for bulk import
-TODO add intro and explain soruce of truth on formatting should be the in platform documentation
+On this page, we visualize the format Atlos requires for bulk import in its spreadsheet format before the data has been exported into a CSV.
+
 **Required columns—** Atlos requires three columns in all bulk imports. Spreadsheets must include three titles in the first row:
 
 {% table %}
@@ -154,5 +153,5 @@ To export all of a project’s data:
 To export the results of any search, click the [TODO: insert inline image] icon in the search bar.
 
 {% callout %}
-To programatically extract data from your project, use our project-scoped [API](/docs/API).
+To programatically extract data from your project, use our project-scoped [API](/docs/api).
 {% /callout %}
