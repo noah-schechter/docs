@@ -7,15 +7,14 @@ description: Notifications alert investigators of changes to relevant incidents.
 
 The Notifications page displays a newest-first feed of updates to and comments on incidents to which you’re subscribed.
 
-## Subscriptions
-TODO: intro
+## Managing subscriptions
+
+### Manual subscriptions
+To subscribe to (or unsubscribe from) any incident, click **Subscribe** (or **Subscribed**, if you’re unsubscribing) on the top-right corner of the incident page. 
 
 ### Automatic subscriptions
 Atlos automatically subscribes you to an incident if you comment on it or update any of its attributes or metadata. 
 
-### Manual subscriptions
-To subscribe to (or unsubscribe from) any incident, click **Subscribe** (or **Subscribed**, if you’re unsubscribing) on the top-right corner of the incident page. 
-  
 ### How to view subscriptions
 To view all of your subscriptions:
 1. Navigate to the **Notifications** page.
