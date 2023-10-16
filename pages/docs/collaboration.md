@@ -21,8 +21,8 @@ When adding a new member, choose each collaborator’s role carefully. Members�
 To change an existing member's role:
 1. Navigate to the **Projects** page.
 2. Select the relevant project. 
-3. Navigate to the **Members** page, which is visible only to project owners. (TODO: confirm this is accurate)
-4. Click the **Edit** button next to the member whose role you want to change. 
+3. Navigate to the **Members** page, which is visible only to project owners and managers. 
+4. Click the **Edit** button next to the member whose role you want to change. Note that the edit button is visible only to project owners.
 5. Select the member’s new role from the drop-down menu.
 6. Click **Save**.
 
@@ -44,12 +44,15 @@ Owners wield ultimate authority over a project. Consult with all collaborators b
 
 ### Manager
 Managers facilitate collaboration on Atlos. Project administrators are often given the Manager role. Managers can:
+- Bulk import data 
 - Mark incidents as complete
 - Edit all incidents, including those marked as complete
 - View and comment on incidents
 - View deleted incidents
 - Bulk export data
-- Editor
+- View a list of project members
+
+### Editor
 - Editors are standard contributors to projects. Editors can:
 - Edit all incidents (except those marked as completed)
 - View and comment on incidents
