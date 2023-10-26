@@ -30,7 +30,7 @@ Each incident has a dedicated page with four main components:
 
     *An incident's attributes pane.* 
 
-- **Metadata—** Metadata is data related to the investigative workflow, including an incident’s status, sensitivity, tags, and restrictions. Learn more about metadata [here](/docs/metadata). 
+- **Metadata—** Metadata is data related to the investigative workflow, including an incident’s status, assignees, sensitivity, tags, and restrictions. Learn more about metadata [here](/docs/metadata). 
     ![An incident's metadata pane](/images/metadata.png)
 
     *An incident's metadata pane.* 

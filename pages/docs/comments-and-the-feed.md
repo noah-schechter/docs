@@ -14,10 +14,10 @@ When any investigator makes any change to an incident’s data—by adding new s
 If an investigator wants to respond to a change or start a new conversation, they can leave a comment in the feed.
 
 ## File upload
-Geolocations often involve reference imagery. To upload images or other files to comments, click the [TODO paperclip icon] in the bottom-left corner of the text box. 
+Geolocations often involve reference imagery. To upload images or other files to comments, click the  in the bottom-left corner of the text box. 
 
 ## Tagging
 To tag another investigator in a comment, type “@” followed by their username.
 
 ## Moderation tools
-If a user posts sensitive content that other investigators shouldn’t be able to view, project owners and managers (TODO confirm this is accuratE) can click the small **Hide** button above any comment to hide it from view. Hidden comments are only visible to project owners and managers (TOOD: confirm this is accurate).
+If a user posts sensitive content that other investigators shouldn’t be able to view, project owners and managers (TODO confirm this is fixed in Linear) can click the small **Hide** button above any comment to hide it from view. Hidden comments are only visible to project owners and managers (TODO: ditto).

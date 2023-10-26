@@ -36,7 +36,7 @@ You can paginate using the `cursor` query parameter, whose value is provided by 
 ### Add a coment to an incident
 `POST /api/v2/add_comment/:slug` with string parameter `message` adds a comment to the incident with slug `:slug` (the slug is the last part of the URL for the incident, and is also available in the `slug` field of the incident object).
 
-### Update an attribute value of an incident
+### Update an incident's attribute value
 `POST /api/v2/update/:slug/:attribute_name` with parameter `value` and optional string parameter `message` updates the value of `attribute_name` to `value` for the incident with slug `:slug` (the slug is the last part of the URL for the incident, and is also available in the ‘slug’ field of the incident object). 
 
 If `message` is provided, it will be added as a comment to the incident (as part of the tracked change). 

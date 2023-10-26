@@ -150,7 +150,7 @@ To export all of a project’s data:
 2. Select the project whose data you wish to export. 
 3. Click **Export** on the top-right corner of the project's page. 
 
-To export the results of any search, click the [TODO: insert inline image] icon in the search bar.
+To export the results of any search, click the ![Paperclip](/images/paperclip.png) icon in the search bar.
 
 {% callout %}
 To programatically extract data from your project, use our project-scoped [API](/docs/api).

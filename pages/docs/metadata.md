@@ -4,17 +4,22 @@ description: Metadata is used for coordinating workflows on Atlos.
 ---
 
 # {% $markdoc.frontmatter.title %}
+![The metadata pane](/images/metadata.png)
+*Use metadata to coordinate work on Atlos.* 
 
-Investigators use metadata to coordinate workflow on Atlos. There are four components to metadata:
+Investigators use metadata to coordinate workflow on Atlos. There are five components to metadata:
 
 ## Status 
 Status refers to the status of an incident in the investigative workflow. Options include:
-- **Unclaimed—** Not actively being worked on. Unclaimed incidents are the best places to start contributing to a project. 
-- **In Progress—** Actively being worked on. Check in with the researcher who claimed an incident before contributing. To find which investigator claimed the incident, click on the profile image next to **Status** on the **Metadata** pane or tap **History** after opening the **Status** update window.
+- **To Do—** Not actively being worked on. To Do incidents are the best places to start contributing to a project. 
+- **In Progress—** Actively being worked on. Check in with the researcher who claimed an incident before contributing. 
 - **Help Needed—** Stuck, or ready for a second opinion. Be sure to explain why you’re marking an incident as Help Needed so other researchers know where you need help.
 - **Ready for Review—** Ready for a moderator’s verification. This applies to incidents where all applicable attributes have been updated. 
-- **Completed—** Investigation complete. A moderator will mark an incident as ‘Completed’ once they’ve verified an incident’s attributes. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
-- **Canceled—** Will not be completed (out of scope, duplicate, etc.). A moderator will mark an incident as ‘Canceled’ if it’s not relevant or if it’s a duplicate of an existing incident. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
+- **Completed—** Investigation complete. A moderator will mark an incident as Completed once they’ve verified an incident’s attributes. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
+- **Canceled—** Will not be completed (out of scope, duplicate, etc.). A moderator will mark an incident as Canceled if it’s not relevant or if it’s a duplicate of an existing incident. Marking an incident as Completed seals the incident’s data so that only project owners and managers can edit it. 
+
+## Assignees
+Assignees are the investigators assigned to an incident. Use assignees to track who is directly repsonsible for an incident during each phase of the investigation. 
 
 ## Sensitivity 
 Atlos takes safety seriously. To ensure investigators’ safety, every incident must have a sensitivity value. We use this value to communicate media’s sensitivity to investigators before they view it, because researchers are less likely to be traumatized by graphic content when they know what to expect. If content is graphic, we also display a clickthrough to further prevent inadvertent exposures. 
@@ -48,7 +53,7 @@ To freeze an incident, project managers and owners can:
 3. Click **Post update**.
 
 ### Hiding
-Hiding an incident prevents viewers and editors from viewing an incident. Hidden incidents will not apepar in viewers' and editors' searches, homepages, notifications, or exports. Project managers and owners will still be able to view hidden incidents in their searches, homepages, notifications, and exports. 
+Hiding an incident prevents viewers and editors from viewing an incident. Hidden incidents will not appear in viewers' and editors' searches, homepages, notifications, or exports. Project managers and owners will still be able to view hidden incidents in their searches, homepages, notifications, and exports. 
 
 #### How to hide an incident
 To hide an incident, project managers and owners can:

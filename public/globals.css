@@ -567,9 +567,12 @@ main .CodeMirror-scroll::-webkit-scrollbar {
 }
 
 img { 
+  border-radius: 0.5rem;
   margin: auto;
   display: block;
-  padding-top: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.3);
 }
 
 em { 
@@ -617,4 +620,19 @@ img[alt="The incident update window"] {
 img[alt="The attribute editing window"] {
   max-width: 400px;
 }
+
+img[alt="The metadata pane"] {
+  max-width: 500px;
+}
+
+img[alt="Paperclip"] {
+  max-width: 30px;
+  margin-bottom:-8px;
+  display: inline;
+  border-radius: 0;
+  margin-top: 0rem;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+
 
